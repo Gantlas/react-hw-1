@@ -1,0 +1,19 @@
+.container {
+  border-bottom: 2px solid black;
+  margin-bottom: 50px;
+}
+
+.header {
+  color: black;
+}
+
+.text {
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: red;
+  user-select: none;
+}
+
+.italic {
+  font-style: italic;
+}
