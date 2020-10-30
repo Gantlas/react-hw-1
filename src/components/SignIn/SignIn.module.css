@@ -1,0 +1,19 @@
+.container {
+  border-bottom: 2px solid black;
+  margin-bottom: 50px;
+}
+
+.header {
+  color: green;
+}
+
+.container button {
+  padding: 5px 15px;
+  font-size: 1rem;
+  background-color: greenyellow;
+}
+
+.greeting {
+  color: green;
+  font-size: 1.5rem;
+}
