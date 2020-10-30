@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Italic from "./components/Italic/Italic";
+import Person from "./components/Person/Person";
 import SignIn from "./components/SignIn/SignIn";
 import Square from "./components/Square/Square";
 
@@ -15,6 +16,7 @@ function App() {
         <Square cssClass="medium" label="Second square" />
         <Square cssClass="large" label="Third square" />
       </div>
+      <Person />
     </div>
   );
 }
