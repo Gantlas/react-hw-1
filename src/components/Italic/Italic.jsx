@@ -7,11 +7,7 @@ class Italic extends React.Component {
   };
 
   switch = () => {
-    if (this.state.isItalic) {
-      this.setState({ isItalic: false });
-    } else {
-      this.setState({ isItalic: true });
-    }
+    this.setState({ isItalic: this.state.isItalic ? false : true });
   };
 
   render() {

@@ -17,13 +17,10 @@ class SignIn extends React.Component {
       <div className={s.container}>
         <h1 className={s.header}>Sign in task</h1>
         {this.state.isSignedIn ? (
-          ""
+          <div className={s.greeting}>Hello User!!!</div>
         ) : (
           <button onClick={this.signIn}>Sign in</button>
         )}
-        <div className={s.greeting}>
-          {this.state.isSignedIn ? "Hello User!!!" : ""}
-        </div>
       </div>
     );
   }
